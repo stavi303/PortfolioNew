@@ -1,0 +1,297 @@
+body {
+    direction: rtl;
+    background: #f5f5f5;
+    font-family: Calibri;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+/*דף הבית*/
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#reka {
+    height: 300px;
+    width: 960px;
+    display: block;
+    margin-bottom: 180px;
+}
+
+header h1 {
+    margin-top: -450px;
+    font-family: Calibri;
+    font-size: 70pt;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+
+header h2 {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: Calibri;
+    font-size: 25pt;
+    text-align: center;
+}
+/*תפריט הניווט*/
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+
+    nav ul li {
+        display: inline-block;
+        float: right;
+        text-decoration: none;
+        font-family: Calibri;
+    }
+
+        nav ul li a {
+            width: 150px;
+            height: 10px;
+            color: #5C0100;
+            text-align: center;
+            font-size: 12pt;
+            font-weight: bold;
+            display: block;
+            margin-right: 50px;
+            text-decoration: none;
+        }
+
+            nav ul li a:hover {
+                text-decoration: underline;
+        }
+            /*החלק הטקסטואלי בבז'*/
+#giv {
+    background-color: #E1E1D5;
+    display: block;
+    margin-top: 120px;
+}
+
+    #giv p {
+        font-family: Calibri;
+        font-size: 12pt;
+        text-align: center;
+        padding: 40px 50px 0px 50px;
+    }
+
+    #giv h3 {
+        font-family: Calibri;
+        text-align: center;
+        padding-top: 100px;
+    }
+    /*אייקוני מדיה*/
+.fa-facebook {
+    background-color: #3B5998;
+    color: white;
+    display: inline-block;
+    float: left;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+    display: inline-block;
+    float: left;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    float: none;
+    color: white;
+}
+
+#media {
+    margin-right: 400px;
+    margin-top: 70px;
+}
+
+    #media h1 {
+        margin: 40px 51px 0px 0px;
+        font-family: Calibri;
+    }
+    /*דף ראשון תקשורת חזותית*/
+#page1 {
+    width: 960px;
+    margin: 0 auto;
+}
+/*תמונת למעלה*/
+#rekaim {
+    height: 100px;
+    width: 960px;
+    display: block;
+    background-image: url('../images/autumn.jpg');
+    background-position: bottom center;
+}
+/*התוכן*/
+#first {
+    width: 960px;
+    background-color: #E1E1D5;
+    display: block;
+    margin-top: 60px;
+    height: 600px;
+}
+
+    #first p {
+        font-family: Calibri;
+        font-size: 12pt;
+        margin-right: 430px;
+        margin-top: 40px;
+        width: 400px;
+        text-align: justify;
+        float: right;
+        display: inline-block;
+    }
+
+    #first a img {
+        height: 330px;
+        width: 250px;
+        margin-top: 150px;
+        float: right;
+        margin-right: -730px;
+        display: inline-block;
+    }
+
+        #first a img:hover {
+            background-color: white;
+            opacity: 0.4;
+        }
+
+#video {
+    margin-right: 430px;
+    display: inline-block;
+    float: right;
+    margin-top: -275px;
+}
+
+#first h1 {
+    font-family: Calibri;
+    font-size: 14pt;
+    margin-right: 240px;
+    margin-top: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+#page1 nav ul {
+    margin-top: -60px;
+    padding-top: 20px;
+}
+/*התמונה הגדולה*/
+#pic {
+    background-color: #E2E2D5;
+    width: 960px;
+    height: 780px;
+}
+
+    #pic img {
+        height: 700px;
+        width: 530px;
+        margin-top: 20px;
+        margin-right: 200px;
+    }
+    /*כפתור חזרה לאתר*/
+#mai nav, ul, li {
+    margin-right: -30px;
+    margin-top: 50px;
+    display: inline-block;
+    float: right;
+}
+
+#mai ul {
+    margin-right: -30px;
+}
+/*דף שני כרזת עצמאות*/
+#Second a img {
+    height: 400px;
+    width: 300px;
+    margin-right: 500px;
+    margin-top: -190px;
+    float: right;
+    display: inline-block;
+}
+
+    #Second a img:hover {
+        background-color: white;
+        opacity: 0.4;
+    }
+
+#audio {
+    margin-top: 180px;
+    margin-right: 120px;
+    position: absolute;
+}
+
+#Second {
+    background-color: #E2E2D6;
+    width: 960px;
+    height: 600px;
+    margin-top: 50px;
+}
+
+    #Second h1 {
+        font-family: Calibri;
+        font-size: 16pt;
+        margin-right: 310px;
+        margin-top: 40px;
+        text-align: justify;
+        display: inline-block;
+        width: 400px;
+    }
+
+    #Second p {
+        font-family: Calibri;
+        font-size: 12pt;
+        margin-right: 100px;
+        margin-top: 70px;
+        width: 350px;
+        text-align: justify;
+    }
+    /*דף שלישי אנימציה*/
+#three {
+    background-color: #E2E2D5;
+    width: 960px;
+    height: 600px;
+    margin-top: 50px;
+}
+
+    #three h1 {
+        font-size: 18pt;
+        padding-top: 50px;
+        text-align: center;
+        font-family: Calibri;
+    }
+
+    #three p {
+        font-family: Calibri;
+        font-size: 12pt;
+        margin-right: 100px;
+        margin-top: 40px;
+        width: 300px;
+        text-align: justify;
+        display: inline-block;
+    }
+
+    #three a img {
+        height: 300px;
+        width: 400px;
+        margin-right: 500px;
+        margin-top: -140px;
+        float: right;
+        display: inline-block;
+    }
+
+        #three a img:hover {
+            background-color: white;
+            opacity: 0.4;
+        }
